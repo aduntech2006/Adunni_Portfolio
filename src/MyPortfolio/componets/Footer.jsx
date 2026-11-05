@@ -71,7 +71,7 @@ export const Footer = () => {
           </a>
 
           <a 
-            href="www.linkedin.com/in/abiodun-hussein-b99a11407" 
+            href="https://www.linkedin.com/in/abiodun-hussein-b99a11407" 
             target="_blank" 
             rel="noreferrer" 
             className="btn btn-neutral-pill btn-sm d-flex align-items-center gap-2"
