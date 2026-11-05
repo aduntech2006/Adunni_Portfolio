@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import hero_image from "../images/WhatsApp Image 2026-10-15 at 07.36.55.jpeg";
+import hero_image from "../images/image.png";
 import { projectsData } from "../data/projectsData";
 
 export const Home = () => {
