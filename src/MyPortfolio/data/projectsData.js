@@ -25,8 +25,8 @@ export const projectsData = [
     languages: ["React", "TypeScript", "Supabase", "Recharts", "Framer Motion", "SweetAlert2", "Tailwind CSS", "Zustand"],
     demoUrl: "https://expenses-tracker-swart-eight.vercel.app/",
     demoLink: "https://expenses-tracker-swart-eight.vercel.app/",
-    githubUrl: "https://github.com/aduntech2006/expenses-tracker",
-    githubLink: "https://github.com/aduntech2006/expenses-tracker"
+    githubUrl: "https://github.com/aduntech2006/",
+    githubLink: "https://github.com/aduntech2006/"
   },
   {
     id: 2,
@@ -51,7 +51,7 @@ export const projectsData = [
     languages: ["React", "Node.js", "Express.js", "PostgreSQL", "Socket.IO", "Bootstrap", "Axios"],
     demoUrl: "https://chat-realtime-front.vercel.app/",
     demoLink: "https://chat-realtime-front.vercel.app/",
-    githubUrl: "https://github.com/aduntech2006/chat-frontend",
-    githubLink: "https://github.com/aduntech2006/chat-frontend"
+    githubUrl: "https://github.com/aduntech2006/",
+    githubLink: "https://github.com/aduntech2006/"
   }
 ];
