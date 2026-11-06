@@ -59,7 +59,7 @@ export const Footer = () => {
         {/* Social Links Row */}
         <div className="d-flex justify-content-center align-items-center gap-3 my-4 flex-wrap">
           <a 
-            href="https://github.com/aduntech2006" 
+            href="https://github.com" 
             target="_blank" 
             rel="noreferrer" 
             className="btn btn-neutral-pill btn-sm d-flex align-items-center gap-2"
@@ -71,7 +71,7 @@ export const Footer = () => {
           </a>
 
           <a 
-            href="https://www.linkedin.com/in/abiodun-hussein-b99a11407" 
+            href="https://linkedin.com" 
             target="_blank" 
             rel="noreferrer" 
             className="btn btn-neutral-pill btn-sm d-flex align-items-center gap-2"

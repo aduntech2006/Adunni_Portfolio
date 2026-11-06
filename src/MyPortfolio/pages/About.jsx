@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import hero_image from "../images/image.png";
+import hero_image from "../images/WhatsApp Image 2026-10-15 at 07.36.55.jpeg";
 
 export const About = () => {
   return (
