@@ -34,7 +34,8 @@ export const About = () => {
               <p className="small mb-3 fw-semibold" style={{ color: '#0284c7' }}>Full-Stack Engineer & QA Tester</p>
               <div className="d-flex justify-content-center gap-2 flex-wrap mb-3">
                 <span className="badge-tech">React 19 / Vite</span>
-                <span className="badge-tech">PHP / MySQL PDO</span>
+                <span className="badge-tech">SQL (MySQL & PostgreSQL)</span>
+                <span className="badge-tech">Git & GitHub</span>
                 <span className="badge-tech">Manual QA Testing</span>
               </div>
               <div className="pt-3 border-top" style={{ borderColor: '#e2e8f0' }}>
@@ -50,7 +51,7 @@ export const About = () => {
             <div className="card card-modern p-4 p-md-5">
               <h3 className="fw-bold fs-4 mb-3" style={{ color: '#0f172a' }}>My Story & Engineering Approach</h3>
               <p className="lh-lg mb-3 fw-normal" style={{ color: '#1e293b' }}>
-                I am a web developer with a dual passion for building user-centric interfaces and ensuring underlying system robustness. I build reactive SPAs with React, modern JavaScript ES6+, and Bootstrap 5, seamlessly backed by secure PHP PDO architectures and MySQL databases.
+                I am a web developer with a dual passion for building user-centric interfaces and ensuring underlying system robustness. I build reactive SPAs with React, modern JavaScript ES6+, and Bootstrap 5, seamlessly backed by SQL (MySQL & PostgreSQL) database architectures and version-controlled collaborative Git & GitHub workflows.
               </p>
               <p className="lh-lg mb-4 fw-normal" style={{ color: '#1e293b' }}>
                 What distinguishes my development process is a rigorous testing mindset. Having developed software and conducted comprehensive QA test suites, I don't just write code—I anticipate edge cases, audit HTTP status codes, construct reproducible bug logs, and verify accessibility across varied screen sizes and browsers before production deployment.

@@ -31,7 +31,7 @@ export const Home = () => {
             {/* Quick Tech Badge Below Avatar */}
             <div className="mt-3">
               <span className="badge-tech d-inline-block px-3 py-2">
-                React • PHP • MySQL • QA Testing
+                React • SQL (MySQL & PostgreSQL) • Git & GitHub • QA Testing
               </span>
             </div>
           </div>
@@ -55,7 +55,7 @@ export const Home = () => {
             </h3>
 
             <p className="lead mb-4 fs-6 lh-lg fw-normal" style={{ color: '#1e293b' }}>
-              I architect responsive, production-ready web applications using React, modern JavaScript, PHP PDO, and secure relational databases. By uniting full-stack engineering with rigorous manual QA and API error auditing, I build software that is fast, resilient, and dependable.
+              I architect responsive, production-ready web applications using React, modern JavaScript, SQL (MySQL & PostgreSQL), and Git/GitHub version control workflows. By uniting full-stack engineering with rigorous manual QA and API error auditing, I build software that is fast, resilient, and dependable.
             </p>
 
             <div className="d-flex justify-content-center justify-content-lg-start gap-3 flex-wrap">
@@ -350,7 +350,7 @@ export const Home = () => {
                 <div className="fs-1 mb-3" style={{ color: '#0284c7' }}>⚙️</div>
                 <h4 className="fw-bold fs-5 mb-2" style={{ color: '#0f172a' }}>Backend & Database</h4>
                 <p className="small mb-0 lh-base fw-normal" style={{ color: '#334155' }}>
-                  Server-side logic, secure PDO prepared queries, REST APIs, and MySQL relational schemas.
+                  Server-side logic, secure REST APIs, and SQL (MySQL & PostgreSQL) relational schemas.
                 </p>
               </div>
             </div>

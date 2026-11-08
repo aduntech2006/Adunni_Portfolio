@@ -34,8 +34,8 @@ export const Skills = () => {
         </svg>
       ),
       skills: [
+        { name: 'SQL (MySQL & PostgreSQL)', level: 'Advanced', description: 'Relational database schema design, ACID transactions, complex joins, indexing, normalization, and optimization.' },
         { name: 'PHP 8 Server Architecture', level: 'Advanced', description: 'Modular backend scripting, session handling, server-side data processing, and routing.' },
-        { name: 'MySQL Databases', level: 'Advanced', description: 'Relational schema design, normalization, foreign keys, indexing, and aggregate data queries.' },
         { name: 'PHP PDO & Prepared Statements', level: 'Expert', description: 'Defensive database query execution, SQL injection mitigation, and transaction safety.' },
         { name: 'RESTful API Engineering', level: 'Advanced', description: 'Structured JSON endpoints, parameter sanitization, and standardized HTTP response codes.' },
         { name: 'Authentication & Security', level: 'Advanced', description: 'Bcrypt password hashing, token validation, CORS configuration, and security headers.' }
@@ -67,7 +67,7 @@ export const Skills = () => {
         </svg>
       ),
       skills: [
-        { name: 'Git & GitHub Version Control', level: 'Advanced', description: 'Branching models, atomic commits, pull requests, merge conflict resolution, and code reviews.' },
+        { name: 'Git & GitHub', level: 'Advanced', description: 'Version control branching models, atomic commits, pull requests, merge conflict resolution, and code reviews.' },
         { name: 'VS Code & Web Dev Ecosystem', level: 'Expert', description: 'Optimized workspace, extensions, linting, debugging, and terminal workflows.' },
         { name: 'Chrome Developer Tools', level: 'Expert', description: 'Console debugging, Network tab inspections, DOM inspection, and performance profiles.' },
         { name: 'NPM Package Management', level: 'Advanced', description: 'Dependency management, package.json scripts, lockfile consistency, and bundler configurations.' }
