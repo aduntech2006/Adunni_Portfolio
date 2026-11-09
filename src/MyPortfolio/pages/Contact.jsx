@@ -94,16 +94,57 @@ export const Contact = () => {
                     <span className="small fw-semibold" style={{ color: '#1e293b' }}>abiodunhussein0@gmail.com</span>
                   </div>
                 </div>
-                <button 
-                  onClick={copyEmail} 
-                  className="btn btn-sky-outline btn-sm w-100 mt-2"
-                >
-                  {copied ? '✓ Email Copied to Clipboard!' : 'Copy Email Address'}
-                </button>
+                <div className="d-flex gap-2">
+                  <button 
+                    onClick={copyEmail} 
+                    className="btn btn-sky-outline btn-sm flex-grow-1"
+                  >
+                    {copied ? '✓ Copied!' : 'Copy Email'}
+                  </button>
+                  <a 
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=abiodunhussein0@gmail.com" 
+                    target="_blank" 
+                    rel="noreferrer" 
+                    className="btn btn-sky btn-sm"
+                  >
+                    Gmail ↗
+                  </a>
+                </div>
+              </div>
+
+              {/* Direct Phone & WhatsApp Card */}
+              <div className="card service-card p-4">
+                <div className="d-flex align-items-center gap-3 mb-3">
+                  <div className="p-3 rounded-circle" style={{ background: '#f0f9ff', color: '#0284c7' }}>
+                    <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                      <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 className="fw-bold mb-0 fs-6" style={{ color: '#0f172a' }}>Phone / WhatsApp</h5>
+                    <span className="small fw-semibold" style={{ color: '#1e293b' }}>09115958843</span>
+                  </div>
+                </div>
+                <div className="d-flex gap-2">
+                  <a 
+                    href="tel:09115958843" 
+                    className="btn btn-sky-outline btn-sm flex-grow-1 text-center"
+                  >
+                    Call Now
+                  </a>
+                  <a 
+                    href="https://wa.me/2349115958843" 
+                    target="_blank" 
+                    rel="noreferrer" 
+                    className="btn btn-sky btn-sm"
+                  >
+                    WhatsApp ↗
+                  </a>
+                </div>
               </div>
 
               {/* Location & Availability */}
-              <div className="card service-card p-4">
+              <div className="card service-card p-4 mt-auto">
                 <div className="d-flex align-items-center gap-3 mb-2">
                   <div className="p-3 rounded-circle" style={{ background: '#f0f9ff', color: '#0284c7' }}>
                     <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
@@ -112,30 +153,16 @@ export const Contact = () => {
                     </svg>
                   </div>
                   <div>
-                    <h5 className="fw-bold mb-0 fs-6" style={{ color: '#0f172a' }}>Work Mode</h5>
-                    <span className="small fw-semibold" style={{ color: '#1e293b' }}>Remote Worldwide</span>
+                    <h5 className="fw-bold mb-0 fs-6" style={{ color: '#0f172a' }}>Location</h5>
+                    <span className="small fw-semibold" style={{ color: '#1e293b' }}>Ota, Ogun State, Nigeria</span>
                   </div>
                 </div>
                 <div className="mt-2 text-center">
                   <span className="pulse-badge w-100 justify-content-center">
                     <span className="pulse-dot"></span>
-                    Available for New Roles & Contracts
+                    Available for Remote & On-site Opportunities
                   </span>
                 </div>
-              </div>
-
-              {/* Prefer Webmail Card */}
-              <div className="card service-card p-4 text-center mt-auto">
-                <h6 className="fw-bold mb-2" style={{ color: '#0f172a' }}>Prefer Webmail?</h6>
-                <p className="small mb-3 fw-medium" style={{ color: '#334155' }}>Open Gmail web application directly in a new browser tab.</p>
-                <a 
-                  href="https://mail.google.com/mail/?view=cm&fs=1&to=abiodunhussein0@gmail.com" 
-                  target="_blank" 
-                  rel="noreferrer" 
-                  className="btn btn-sky btn-sm px-4"
-                >
-                  Open in Gmail ↗
-                </a>
               </div>
 
             </div>

@@ -7,7 +7,7 @@ export const Skills = () => {
   const skillsCategories = [
     {
       category: 'frontend',
-      categoryTitle: 'Frontend Development',
+      categoryTitle: 'Front-End Development',
       icon: (
         <svg style={{ color: '#0284c7' }} width="28" height="28" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
           <polyline points="16 18 22 12 16 6"></polyline>
@@ -15,16 +15,17 @@ export const Skills = () => {
         </svg>
       ),
       skills: [
-        { name: 'React 19 & Vite', level: 'Advanced', description: 'Component-driven SPA architectures, hooks, custom states, dynamic routing, and fast HMR builds.' },
-        { name: 'JavaScript (ES6+)', level: 'Advanced', description: 'Async/await, DOM manipulation, functional programming, event delegation, and JSON payload handling.' },
-        { name: 'Bootstrap 5 & Custom CSS', level: 'Expert', description: 'Mobile-first responsive grids, flexbox layouts, utility systems, and bespoke light-theme micro-interactions.' },
-        { name: 'HTML5 & Semantic Markup', level: 'Expert', description: 'Accessible DOM structuring, web standards, clean form validation, and SEO best practices.' },
-        { name: 'AJAX & Fetch API', level: 'Advanced', description: 'Asynchronous HTTP communications, promise handling, and dynamic UI state synchronization.' }
+        { name: 'React.js', level: 'Advanced', description: 'Component-driven SPA architectures, hooks, custom states, dynamic routing, and fast Vite builds.' },
+        { name: 'JavaScript', level: 'Advanced', description: 'DOM manipulation, event handling, async/await, modern ES6+ features, and interactive logic.' },
+        { name: 'HTML5 & CSS3', level: 'Expert', description: 'Semantic DOM structuring, accessible web standards, modern CSS styling, and responsive micro-interactions.' },
+        { name: 'Bootstrap', level: 'Expert', description: 'Mobile-first responsive grids, flexbox layouts, utility systems, and interactive UI components.' },
+        { name: 'Responsive Web Design', level: 'Expert', description: 'Adapting website interfaces seamlessly across mobile, tablet, and desktop viewports without layout shifts.' },
+        { name: 'Website Interface Development', level: 'Advanced', description: 'Crafting intuitive user-friendly pages, interactive cart drawers, product grids, and modal dialogs.' }
       ]
     },
     {
       category: 'backend',
-      categoryTitle: 'Backend & Database Systems',
+      categoryTitle: 'Back-End Development',
       icon: (
         <svg style={{ color: '#0284c7' }} width="28" height="28" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
           <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
@@ -34,16 +35,15 @@ export const Skills = () => {
         </svg>
       ),
       skills: [
-        { name: 'SQL (MySQL & PostgreSQL)', level: 'Advanced', description: 'Relational database schema design, ACID transactions, complex joins, indexing, normalization, and optimization.' },
-        { name: 'PHP 8 Server Architecture', level: 'Advanced', description: 'Modular backend scripting, session handling, server-side data processing, and routing.' },
-        { name: 'PHP PDO & Prepared Statements', level: 'Expert', description: 'Defensive database query execution, SQL injection mitigation, and transaction safety.' },
-        { name: 'RESTful API Engineering', level: 'Advanced', description: 'Structured JSON endpoints, parameter sanitization, and standardized HTTP response codes.' },
-        { name: 'Authentication & Security', level: 'Advanced', description: 'Bcrypt password hashing, token validation, CORS configuration, and security headers.' }
+        { name: 'Node.js', level: 'Intermediate', description: 'Server-side JavaScript runtime environment, NPM modules, asynchronous processing, and event-driven backends.' },
+        { name: 'Express.js', level: 'Intermediate', description: 'RESTful API routing, middleware integration, HTTP request handling, and JSON payload serialization.' },
+        { name: 'MySQL', level: 'Advanced', description: 'Relational database schema design, normalization, foreign keys, indexing, and structured SQL queries.' },
+        { name: 'PostgreSQL', level: 'Intermediate', description: 'Advanced relational tables, ACID compliance, data integrity, and persistent database storage.' }
       ]
     },
     {
       category: 'qa',
-      categoryTitle: 'Software QA & Testing',
+      categoryTitle: 'Quality Assurance (QA)',
       icon: (
         <svg style={{ color: '#0284c7' }} width="28" height="28" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
           <path d="M9 11l3 3L22 4"></path>
@@ -51,26 +51,25 @@ export const Skills = () => {
         </svg>
       ),
       skills: [
-        { name: 'Manual System & Smoke Testing', level: 'Expert', description: 'Systematic execution of test flows, edge cases, user story compliance, and bug discovery.' },
-        { name: 'Bug Tracking & Documentation', level: 'Expert', description: 'Clear step-by-step reproduction steps, severity triage, logs, and resolution tracking.' },
-        { name: 'HTTP & Network Error Auditing', level: 'Advanced', description: 'Diagnostic inspection of headers, payload sizes, 4xx/5xx responses, and network latency.' },
-        { name: 'Postman API Testing', level: 'Advanced', description: 'Endpoint verification, payload validation, mock requests, and status code verification.' },
-        { name: 'Cross-Device & Browser Audits', level: 'Expert', description: 'Viewport testing across desktop browsers (Chrome, Firefox, Safari) and iOS/Android viewports.' }
+        { name: 'Manual Testing', level: 'Expert', description: 'Systematic execution of test flows, smoke tests, functionality checks, and edge-case verification.' },
+        { name: 'Software Testing', level: 'Advanced', description: 'Validating website features against user expectations, usability standards, and design specifications.' },
+        { name: 'Bug Identification and Reporting', level: 'Expert', description: 'Identifying website errors, logging detailed reproducible steps, severity classification, and fix tracking.' },
+        { name: 'Basic Website Functionality Testing', level: 'Expert', description: 'Form input validation, boundary stress tests, interactive modal checks, and broken link audits.' },
+        { name: 'Cross-Device & Browser Audits', level: 'Expert', description: 'Viewport testing across desktop browsers (Chrome, Firefox, Safari) and mobile viewports.' }
       ]
     },
     {
       category: 'tools',
-      categoryTitle: 'Developer Tools & Workflow',
+      categoryTitle: 'Development Tools',
       icon: (
         <svg style={{ color: '#0284c7' }} width="28" height="28" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
           <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
         </svg>
       ),
       skills: [
-        { name: 'Git & GitHub', level: 'Advanced', description: 'Version control branching models, atomic commits, pull requests, merge conflict resolution, and code reviews.' },
-        { name: 'VS Code & Web Dev Ecosystem', level: 'Expert', description: 'Optimized workspace, extensions, linting, debugging, and terminal workflows.' },
-        { name: 'Chrome Developer Tools', level: 'Expert', description: 'Console debugging, Network tab inspections, DOM inspection, and performance profiles.' },
-        { name: 'NPM Package Management', level: 'Advanced', description: 'Dependency management, package.json scripts, lockfile consistency, and bundler configurations.' }
+        { name: 'Git & GitHub', level: 'Advanced', description: 'Version control workflows, atomic commits, pull requests, branch management, collaboration, and repository governance.' },
+        { name: 'Visual Studio Code (VS Code)', level: 'Expert', description: 'Optimized workspace configuration, productivity extensions, code linting, and integrated terminal.' },
+        { name: 'Google Chrome & DevTools', level: 'Expert', description: 'DOM and CSS inspections, console debugging, network payload auditing, and performance profiling.' }
       ]
     }
   ];

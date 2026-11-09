@@ -51,11 +51,11 @@ export const Home = () => {
             </h1>
             
             <h3 className="fw-bold mb-3 fs-4 text-gradient-sky">
-              Full-Stack Web Developer & Software QA Specialist
+              Junior Front-End Developer | QA Tester
             </h3>
 
             <p className="lead mb-4 fs-6 lh-lg fw-normal" style={{ color: '#1e293b' }}>
-              I architect responsive, production-ready web applications using React, modern JavaScript, SQL (MySQL & PostgreSQL), and Git/GitHub version control workflows. By uniting full-stack engineering with rigorous manual QA and API error auditing, I build software that is fast, resilient, and dependable.
+              Motivated and enthusiastic entry-level Front-End Developer and Quality Assurance Tester with hands-on expertise in HTML, CSS, Bootstrap, JavaScript, and React.js, expanding into Node.js backends and SQL databases. Dedicated to building responsive, user-friendly web interfaces and ensuring release reliability through systematic manual testing and bug reporting.
             </p>
 
             <div className="d-flex justify-content-center justify-content-lg-start gap-3 flex-wrap">
@@ -119,18 +119,18 @@ export const Home = () => {
               {/* Left Column */}
               <div className="col-12 col-lg-4 text-center text-lg-start border-bottom border-bottom-lg-0 border-end-0 border-end-lg pb-4 pb-lg-0 pe-lg-4" style={{ borderColor: '#cbd5e1' }}>
                 <span className="badge-category mb-3 d-inline-block">
-                  Full-Stack & QA
+                  Front-End & QA Testing
                 </span>
                 <h3 className="fw-bold fs-3 mb-2" style={{ color: '#0f172a' }}>Hussein Barakat</h3>
                 <p className="small mb-0 fw-medium" style={{ color: '#334155' }}>
-                  Focused on building clean components, secure database transactions, and rigorous QA verification.
+                  Specialized in building responsive UI layouts with React, manual QA bug reporting, and Aduntech Solutions projects.
                 </p>
               </div>
 
               {/* Right Column */}
               <div className="col-12 col-lg-8 ps-lg-4 text-center text-lg-start">
                 <p className="fs-6 lh-lg mb-0 fw-normal" style={{ color: '#1e293b' }}>
-                  I design and build end-to-end web applications—from crafting dynamic user interfaces with React and Bootstrap to engineering server-side logic with PHP and MySQL. With a strong discipline in manual software testing, bug documentation, and network HTTP analysis, I eliminate regressions and deliver seamless performance across desktop and mobile browsers.
+                  I build responsive, user-friendly websites and ensure software quality through manual testing and bug reporting. With practical experience developing personal web projects under Aduntech Solutions and hands-on skills in React, HTML5, CSS3, JavaScript, Bootstrap, Node.js, Express, and SQL (MySQL & PostgreSQL), I am eager to contribute technical skills and solve problems within a technology-driven organization.
                 </p>
               </div>
             </div>

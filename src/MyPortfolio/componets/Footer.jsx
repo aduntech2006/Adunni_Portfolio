@@ -19,7 +19,7 @@ export const Footer = () => {
               <span style={{ color: '#0284c7' }}>&lt;</span> Adunni <span style={{ color: '#0284c7' }}>/&gt;</span>
             </h5>
             <p className="small mb-0 fw-medium" style={{ color: '#334155' }}>
-              Full-Stack Web Developer & Software QA Specialist building robust, responsive web applications.
+              Junior Front-End Developer & QA Tester building responsive, user-friendly websites with high software quality.
             </p>
           </div>
 
@@ -59,7 +59,7 @@ export const Footer = () => {
         {/* Social Links Row */}
         <div className="d-flex justify-content-center align-items-center gap-3 my-4 flex-wrap">
           <a 
-            href="https://github.com" 
+            href="https://github.com/aduntech2006" 
             target="_blank" 
             rel="noreferrer" 
             className="btn btn-neutral-pill btn-sm d-flex align-items-center gap-2"
@@ -71,7 +71,7 @@ export const Footer = () => {
           </a>
 
           <a 
-            href="https://linkedin.com" 
+            href="https://www.linkedin.com/in/abiodun-hussein-b99a11407" 
             target="_blank" 
             rel="noreferrer" 
             className="btn btn-neutral-pill btn-sm d-flex align-items-center gap-2"
@@ -80,6 +80,16 @@ export const Footer = () => {
               <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
             </svg>
             <span>LinkedIn</span>
+          </a>
+
+          <a 
+            href="tel:09115958843"
+            className="btn btn-neutral-pill btn-sm d-flex align-items-center gap-2"
+          >
+            <svg width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"></path>
+            </svg>
+            <span>09115958843</span>
           </a>
 
           <a 
