@@ -3,21 +3,21 @@ import { Link } from 'react-router-dom';
 export const Services = () => {
   const servicesData = [
     {
-      id: 'fullstack',
+      id: 'frontend',
       icon: (
         <svg style={{ color: '#0284c7' }} width="36" height="36" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
           <polyline points="16 18 22 12 16 6"></polyline>
           <polyline points="8 6 2 12 8 18"></polyline>
         </svg>
       ),
-      title: 'Full-Stack Web Development',
-      badge: 'Frontend & UI/UX',
-      description: 'Building modern, responsive web applications with clean component architecture, dynamic state synchronization, and bespoke styling.',
+      title: 'Front-End Web Development',
+      badge: 'React & UI/UX',
+      description: 'Building modern, responsive web applications with clean component architecture, dynamic state synchronization, and accessible styling.',
       deliverables: [
         'React & Vite Single-Page Application Setup',
         'Bootstrap 5 Grid & Custom CSS Micro-Interactions',
-        'Persistent Cart & Interactive Modal States',
-        'Strict Cross-Browser & Mobile Ergonomics'
+        'Interactive Shopping Cart Drawers & Product Grids',
+        'Strict Cross-Browser & Mobile Responsiveness'
       ]
     },
     {
@@ -29,14 +29,14 @@ export const Services = () => {
           <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
         </svg>
       ),
-      title: 'Backend & Database Systems',
-      badge: 'APIs & Security',
-      description: 'Engineering defensive database schemas and robust server-side execution endpoints using PHP and MySQL.',
+      title: 'Back-End & API Integration',
+      badge: 'Node.js & SQL',
+      description: 'Engineering clean server-side APIs, database schemas, and persistent data storage using Node.js, Express, MySQL, and PostgreSQL.',
       deliverables: [
-        'PHP PDO Database Abstraction & Connections',
-        'Prepared SQL Queries to Mitigate Injections',
-        'Secure Form Sanitization & Bcrypt Password Hashing',
-        'Asynchronous AJAX & RESTful JSON Data Fetching'
+        'Node.js & Express.js RESTful API Routing',
+        'Relational Database Modeling (MySQL & PostgreSQL)',
+        'Form Boundary Validation & Input Sanitization',
+        'Asynchronous Axios JSON Data Synchronization'
       ]
     },
     {
@@ -51,10 +51,10 @@ export const Services = () => {
       badge: 'Testing & Auditing',
       description: 'Rigorously testing web applications to identify bugs, verify boundary edge cases, and ensure production release reliability.',
       deliverables: [
-        'Detailed Manual Test Execution Logs & Matrices',
-        'HTTP Error & Status Code Audits (4xx, 5xx analysis)',
-        'Postman REST API Verification & Payload Inspection',
-        'Form Boundary & Input Validation Verification'
+        'Detailed Manual Test Execution & Smoke Passes',
+        'Bug Identification, Reproducible Steps & Error Logs',
+        'Basic Website Functionality & Form Input Testing',
+        'Usability, Responsiveness & Cross-Browser Verification'
       ]
     }
   ];
@@ -120,17 +120,17 @@ export const Services = () => {
             <div className="col-12 col-md-3">
               <div className="fw-bold fs-2 mb-1" style={{ color: '#0284c7' }}>01</div>
               <h5 className="fs-6 mb-2 fw-bold" style={{ color: '#0f172a' }}>Architecture</h5>
-              <p className="small mb-0 fw-medium" style={{ color: '#334155' }}>Planning modular React component hierarchy & normalized MySQL database schema.</p>
+              <p className="small mb-0 fw-medium" style={{ color: '#334155' }}>Planning modular React component hierarchy & normalized SQL relational schema.</p>
             </div>
             <div className="col-12 col-md-3">
               <div className="fw-bold fs-2 mb-1" style={{ color: '#0284c7' }}>02</div>
               <h5 className="fs-6 mb-2 fw-bold" style={{ color: '#0f172a' }}>Development</h5>
-              <p className="small mb-0 fw-medium" style={{ color: '#334155' }}>Coding responsive frontends & clean PHP PDO server-side scripts with prepared queries.</p>
+              <p className="small mb-0 fw-medium" style={{ color: '#334155' }}>Coding responsive frontends with React & Bootstrap and backend Node.js APIs.</p>
             </div>
             <div className="col-12 col-md-3">
               <div className="fw-bold fs-2 mb-1" style={{ color: '#0284c7' }}>03</div>
               <h5 className="fs-6 mb-2 fw-bold" style={{ color: '#0f172a' }}>QA Audit</h5>
-              <p className="small mb-0 fw-medium" style={{ color: '#334155' }}>Executing manual test logs, network checks, form validation, and bug fix passes.</p>
+              <p className="small mb-0 fw-medium" style={{ color: '#334155' }}>Executing manual testing passes, error identification, and bug reporting.</p>
             </div>
             <div className="col-12 col-md-3">
               <div className="fw-bold fs-2 mb-1" style={{ color: '#0284c7' }}>04</div>

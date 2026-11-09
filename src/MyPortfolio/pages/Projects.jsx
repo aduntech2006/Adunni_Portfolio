@@ -282,9 +282,9 @@ export const Projects = () => {
 
         {/* CTA Banner */}
         <div className="card profile-card p-4 p-md-5 text-center mt-5">
-          <h3 className="fw-bold fs-3 mb-2" style={{ color: '#0f172a' }}>Have a custom web solution or QA test cycle in mind?</h3>
+          <h3 className="fw-bold fs-3 mb-2" style={{ color: '#0f172a' }}>Have a custom web project or QA test cycle in mind?</h3>
           <p className="mb-4 col-lg-8 mx-auto fw-medium" style={{ color: '#1e293b' }}>
-            Whether you need a dynamic React frontend, a secure PHP/MySQL backend, or an end-to-end QA audit, I am ready to collaborate.
+            Whether you need a dynamic React frontend, Node.js API integration, or an end-to-end QA audit, I am ready to collaborate.
           </p>
           <div className="d-flex justify-content-center gap-3">
             <Link to="/contact" className="btn btn-sky px-5 py-2">

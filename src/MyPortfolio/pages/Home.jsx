@@ -55,7 +55,7 @@ export const Home = () => {
             </h3>
 
             <p className="lead mb-4 fs-6 lh-lg fw-normal" style={{ color: '#1e293b' }}>
-              Motivated and enthusiastic entry-level Front-End Developer and Quality Assurance Tester with hands-on expertise in HTML, CSS, Bootstrap, JavaScript, and React.js, expanding into Node.js backends and SQL databases. Dedicated to building responsive, user-friendly web interfaces and ensuring release reliability through systematic manual testing and bug reporting.
+              Motivated and detail-oriented Junior Front-End Developer and Quality Assurance Tester with hands-on expertise in HTML5, CSS3, Bootstrap, JavaScript, and React.js, along with Node.js backends and SQL databases. Dedicated to crafting responsive, accessible user interfaces and ensuring release reliability through systematic manual testing and bug reporting.
             </p>
 
             <div className="d-flex justify-content-center justify-content-lg-start gap-3 flex-wrap">
@@ -386,7 +386,7 @@ export const Home = () => {
             </span>
             <h2 className="fw-bold fs-3 mb-2" style={{ color: '#0f172a' }}>Have a project in mind or an open role?</h2>
             <p className="col-lg-7 mx-auto mb-4 fw-normal" style={{ color: '#1e293b' }}>
-              I am available for full-stack engineering roles, freelance web development, and QA testing contracts. Let's discuss your requirements.
+              I am available for Front-End engineering roles, QA testing positions, and collaborative web projects. Let's discuss your requirements.
             </p>
             <div className="d-flex justify-content-center gap-3 flex-wrap">
               <Link to="/contact" className="btn btn-sky px-5 py-2">

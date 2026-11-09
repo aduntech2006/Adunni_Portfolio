@@ -55,21 +55,21 @@ export const About = () => {
 
           <div className="col-12 col-lg-7">
             <div className="card card-modern p-4 p-md-5">
-              <span className="badge-category mb-2 d-inline-block">Professional Summary</span>
-              <h3 className="fw-bold fs-4 mb-3" style={{ color: '#0f172a' }}>Passionate Front-End Engineer & QA Tester</h3>
+              <span className="badge-category mb-2 d-inline-block">Professional Profile</span>
+              <h3 className="fw-bold fs-4 mb-3" style={{ color: '#0f172a' }}>Front-End Engineering & QA Testing</h3>
               
               <p className="lh-lg mb-3 fw-normal" style={{ color: '#1e293b' }}>
-                Motivated and enthusiastic entry-level Front-End Developer and Quality Assurance Tester with foundational knowledge of HTML, CSS, Bootstrap, JavaScript and React.js. Currently expanding technical knowledge in back-end development with Node.js and SQL databases.
+                Motivated and detail-oriented Junior Front-End Developer and Quality Assurance Tester with strong competencies in HTML5, CSS3, Bootstrap, JavaScript, and React.js, complemented by back-end foundations in Node.js, Express, and SQL (MySQL & PostgreSQL).
               </p>
               <p className="lh-lg mb-4 fw-normal" style={{ color: '#1e293b' }}>
-                Interested in building responsive, user-friendly websites and ensuring software quality through manual testing and bug reporting. A self-motivated learner with practical experience developing personal web projects under Aduntech Solutions. Eager to contribute technical skills, solve problems and grow professionally within a technology-driven organization.
+                Focused on developing responsive, user-friendly web interfaces and ensuring robust software quality through comprehensive manual testing and structured bug reporting. With hands-on experience building independent web applications under Aduntech Solutions, I bring an analytical problem-solving approach, dedication to clean code, and continuous learning to high-performing engineering teams.
               </p>
 
-              {/* Career Objective Strip */}
+              {/* Career Focus Strip */}
               <div className="p-3 rounded-3 mb-4" style={{ background: '#f0f9ff', border: '1px solid #bae6fd' }}>
-                <span className="d-block fw-bold small text-uppercase mb-1" style={{ color: '#0284c7', letterSpacing: '0.5px' }}>Career Objective</span>
+                <span className="d-block fw-bold small text-uppercase mb-1" style={{ color: '#0284c7', letterSpacing: '0.5px' }}>Core Focus & Direction</span>
                 <p className="small mb-0 lh-base fw-medium" style={{ color: '#0f172a' }}>
-                  To secure an entry-level opportunity as a Front-End Developer or QA Tester where I can apply my technical knowledge, contribute to software development and testing projects, improve product quality and develop my professional capabilities.
+                  Dedicated to delivering high-impact Front-End development and Quality Assurance solutions, collaborating with engineering teams to build performant, accessible websites, and elevating product reliability.
                 </p>
               </div>
 
@@ -255,36 +255,11 @@ export const About = () => {
 
         </div>
 
-        {/* Education Section */}
-        <div className="card card-modern p-4 p-md-5 mb-5">
-          <div className="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-3">
-            <div>
-              <span className="badge-category mb-2 d-inline-block">Academic Background</span>
-              <h3 className="fw-bold fs-4 mb-1" style={{ color: '#0f172a' }}>Education</h3>
-            </div>
-          </div>
-
-          <div className="p-3 rounded-3" style={{ background: '#f8fafc', border: '1px solid #e2e8f0' }}>
-            <div className="d-flex justify-content-between align-items-start flex-wrap gap-2">
-              <div>
-                <h5 className="fw-bold fs-6 mb-1" style={{ color: '#0f172a' }}>Magboro Community High School</h5>
-                <p className="small mb-1 fw-medium" style={{ color: '#0284c7' }}>Secondary School Education</p>
-                <p className="small mb-0" style={{ color: '#334155' }}>
-                  <strong>Qualification:</strong> WAEC / NECO
-                </p>
-              </div>
-              <span className="badge bg-light text-secondary border fw-semibold small">
-                Completed: 2023
-              </span>
-            </div>
-          </div>
-        </div>
-
         {/* CTA Banner */}
         <div className="card profile-card p-4 p-md-5 text-center">
-          <h3 className="fw-bold fs-3 mb-2" style={{ color: '#0f172a' }}>Interested in discussing an entry-level or junior role?</h3>
+          <h3 className="fw-bold fs-3 mb-2" style={{ color: '#0f172a' }}>Interested in collaborating on web development or QA testing?</h3>
           <p className="mb-4 col-lg-8 mx-auto fw-medium" style={{ color: '#1e293b' }}>
-            I am eager to contribute my Front-End and QA skills to your engineering team. Let's connect!
+            I am eager to contribute my Front-End engineering and QA testing capabilities to your team and projects. Let's connect!
           </p>
           <div className="d-flex justify-content-center gap-3 flex-wrap">
             <Link to="/projects" className="btn btn-sky-outline px-4 py-2">
