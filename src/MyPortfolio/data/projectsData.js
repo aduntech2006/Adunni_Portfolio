@@ -1,5 +1,6 @@
 import expense_img from "../images/expense_dashboard.jpg";
 import chat_img from "../images/chat_app.jpg";
+import devfinder_img from "../images/devfinder.jpg";
 
 export const projectsData = [
   {
@@ -12,7 +13,7 @@ export const projectsData = [
     image: expense_img,
     img: expense_img,
     summary: "Interactive financial intelligence dashboard featuring categorized budget tracking, visual expenditure charts, and real-time cloud persistence.",
-    desc: "A responsive personal finance and budget analytics platform built with React, TypeScript, and Supabase. Features real-time transaction tracking, dynamic spending category charts powered by Recharts, and animated workflows with Framer Motion.",
+    desc: "A responsive personal finance and budget analytics platform built with React, TypeScript, and Supabase. Features real-time transaction tracking, dynamic category charts powered by Recharts, and animated workflows with Framer Motion.",
     description: "Expenz is an end-to-end financial intelligence dashboard designed to streamline personal budgeting, cashflow tracking, and expenditure breakdowns. Built on React and TypeScript for maximum stability, backed by Supabase for real-time cloud data sync, and visualized through dynamic Recharts data modules.",
     features: [
       "CRUD operations for budgets and expenses with real-time balance reconciliation",
@@ -53,5 +54,31 @@ export const projectsData = [
     demoLink: "https://chat-realtime-front.vercel.app/",
     githubUrl: "https://github.com/aduntech2006/PulseChat",
     githubLink: "https://github.com/aduntech2006/PulseChat"
+  },
+  {
+    id: 3,
+    title: "devfinder — GitHub Profile & Repository Explorer",
+    category: "fullstack",
+    categoryLabel: "Frontend & REST API",
+    badge: "Developer Tooling",
+    type: "GitHub API Explorer",
+    image: devfinder_img,
+    img: devfinder_img,
+    summary: "Interactive GitHub developer profile and repository explorer featuring smart URL/username parsing, concurrent REST API fetching, and real-time repository metrics.",
+    desc: "A responsive GitHub profile lookup application built with React 19, Vite, Bootstrap 5, and the GitHub REST API. Supports searching by username or full GitHub profile URL to inspect developer bios, follower statistics, and top updated repositories.",
+    description: "devfinder is a fast, developer-focused GitHub profile and repository discovery tool built with React 19 and Bootstrap 5. It leverages concurrent Promise.all requests against the GitHub REST API to fetch user metadata and latest repositories simultaneously, complete with smart URL parsing and graceful rate-limit and 404 error handling.",
+    features: [
+      "Smart search bar supporting both direct GitHub usernames and full GitHub profile URLs",
+      "Concurrent API requests via Promise.all for user profile metrics and latest updated repositories",
+      "Comprehensive profile cards displaying avatar, join date, bio, repository count, followers, and following stats",
+      "Interactive repository badges linking directly to public repositories with live stargazer counts",
+      "Graceful loading spinners and descriptive HTTP 404/403 rate-limit error handling"
+    ],
+    techStack: ["React 19", "JavaScript (ES6+)", "GitHub REST API", "Bootstrap 5", "CSS3", "Vite"],
+    languages: ["React 19", "JavaScript (ES6+)", "GitHub REST API", "Bootstrap 5", "CSS3", "Vite"],
+    demoUrl: "https://github.com/aduntech2006/devfinder",
+    demoLink: "https://github.com/aduntech2006/devfinder",
+    githubUrl: "https://github.com/aduntech2006/devfinder",
+    githubLink: "https://github.com/aduntech2006/devfinder"
   }
 ];
