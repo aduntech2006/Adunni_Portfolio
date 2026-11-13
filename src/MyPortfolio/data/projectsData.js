@@ -76,8 +76,8 @@ export const projectsData = [
     ],
     techStack: ["React 19", "JavaScript (ES6+)", "GitHub REST API", "Bootstrap 5", "CSS3", "Vite"],
     languages: ["React 19", "JavaScript (ES6+)", "GitHub REST API", "Bootstrap 5", "CSS3", "Vite"],
-    demoUrl: "https://github.com/aduntech2006/devfinder",
-    demoLink: "https://github.com/aduntech2006/devfinder",
+    demoUrl: "https://devfinder-nine-psi.vercel.app/",
+    demoLink: "https://devfinder-nine-psi.vercel.app/",
     githubUrl: "https://github.com/aduntech2006/devfinder",
     githubLink: "https://github.com/aduntech2006/devfinder"
   }
