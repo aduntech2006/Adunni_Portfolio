@@ -1,6 +1,7 @@
 import expense_img from "../images/expense_dashboard.jpg";
 import chat_img from "../images/chat_app.jpg";
 import devfinder_img from "../images/devfinder.jpg";
+import weather_img from "../images/weather_app.jpg";
 
 export const projectsData = [
   {
@@ -80,5 +81,31 @@ export const projectsData = [
     demoLink: "https://devfinder-nine-psi.vercel.app/",
     githubUrl: "https://github.com/aduntech2006/devfinder",
     githubLink: "https://github.com/aduntech2006/devfinder"
+  },
+  {
+    id: 4,
+    title: "Weather Dashboard — Live Meteorological & GPS Forecast App",
+    category: "fullstack",
+    categoryLabel: "Frontend & REST API",
+    badge: "Weather & Geolocation",
+    type: "Meteorological Dashboard",
+    image: weather_img,
+    img: weather_img,
+    summary: "Real-time weather forecasting dashboard featuring city lookup, browser HTML5 Geolocation integration, and live atmospheric metrics via the OpenWeatherMap API.",
+    desc: "A responsive real-time weather dashboard built with React 19, Vite, Bootstrap 5, and the OpenWeatherMap REST API. Supports both global city queries and one-click GPS coordinate detection to display live temperatures, humidity, feels-like indices, and wind speeds.",
+    description: "Weather Dashboard is a responsive meteorological lookup application built with React 19 and Bootstrap 5. Powered by the OpenWeatherMap REST API and the browser's Geolocation API, it delivers instant weather conditions, temperature readings, humidity levels, and wind speed analytics for any city worldwide or the user's current GPS coordinates.",
+    features: [
+      "Real-time global weather search by city name powered by the OpenWeatherMap REST API",
+      "One-click 'My Location' detection using the HTML5 Geolocation API for coordinate-based weather lookup",
+      "Detailed atmospheric metrics card displaying live temperature (°C), weather conditions, 'Feels Like' index, humidity percentage, and wind speed (m/s)",
+      "Modular service layer separating API requests and environment key validation from UI state",
+      "Responsive Bootstrap 5 interface with loading spinners and descriptive 404/permission error alerts"
+    ],
+    techStack: ["React 19", "JavaScript (ES6+)", "OpenWeatherMap API", "Geolocation API", "Bootstrap 5", "CSS3", "Vite"],
+    languages: ["React 19", "JavaScript (ES6+)", "OpenWeatherMap API", "Geolocation API", "Bootstrap 5", "CSS3", "Vite"],
+    demoUrl: "https://weather-app-cerf.vercel.app/",
+    demoLink: "https://weather-app-cerf.vercel.app/",
+    githubUrl: "https://github.com/aduntech2006/weather_app",
+    githubLink: "https://github.com/aduntech2006/weather_app"
   }
 ];
